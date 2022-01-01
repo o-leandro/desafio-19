@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+:root {
+    /* Cores */
+    --blue: #0F9AFE;
+    --white: #FFF;
+    --white-200: #EFF8FF;
+    --white-400: #EFF8FF;
+    --gray-light: #DBDBDB;
+    --gray: #6E7275;
+    --gray-200: #293145;
+
+    /* Tipografia */
+    --sora: 'Inter', sans-serif;
+    --inter: 'Sora', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    gap: 66px;
+    list-style: none;
+}
+
+.menu__item {
+    color: var(--gray);
+    font-family: var(--inter);
+    font-weight: 500;
+}
+
+.menu__item a {
+    text-decoration: none;
+}
+
+main {
+    background: #EFF8FF;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home__title {
+    color: var(--gray-200);
+    font-family: var(--sora);
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.btn_register {
+    color: var(--white);
+    background-color: var(--blue);
+    padding: 16px 36px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: var(--inter);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.functions {
+    background-color: var(--white);
+}
+
+.functions__title {
+    color: var(--gray-200);
+    font-size: 40px;
+    font-family: var(--sora);
+    font-weight: 600;
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 84px;
+}
+
+.functions__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+
+.connection__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__title {
+    color: var(--gray-200);
+    font-size: 18px;
+    font-family: var(--sora);
+    font-weight: 600;
+    padding: 34px 0 16px 0;
+}
+
+.box__description {
+    color: var(--gray);
+    font-family: var(--inter);
+    font-weight: 400;
+    padding-bottom: 109px;
+    width: 257px;
+    text-align: center;
+}
