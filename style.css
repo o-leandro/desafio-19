@@ -130,3 +130,36 @@ main {
     width: 257px;
     text-align: center;
 }
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 128px;
+}
+
+.app__title {
+    color: var(--gray-200);
+    font-size: 32px;
+    font-family: var(--sora);
+    font-weight: 600;
+    padding-top: 117px;
+}
+
+.app__description {
+    color: var(--gray);
+    font-family: var(--inter);
+    font-weight: 400;
+    width: 65%;
+    padding: 24px 0 36px 0;
+}
+
+.app__image img {
+    margin-top: 65px;
+    padding-bottom: 50px;
+}
