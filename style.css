@@ -163,3 +163,119 @@ main {
     margin-top: 65px;
     padding-bottom: 50px;
 }
+
+.planos {
+    background-color: var(--white);
+}
+
+.planos__title {
+    color: var(--gray-200);
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--sora);
+    font-weight: 600;
+    padding: 50px 0 16px 0;
+}
+
+.planos__description {
+    color: var(--gray);
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 96px;
+    /* add fonte roboto */
+}
+
+.planos__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    background-color: var(--white-400);
+    width: 370px;
+    height: 470px;
+    /* add fonte roboto */
+}
+
+.bg-gray {
+    background-color: var(--gray-200);
+}
+
+.gray__title {
+    color: var(--white);
+    font-family: var(--sora);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding: 32px 0 14px 0;
+}
+
+.preferred {
+    color: var(--white);
+    background-color: var(--blue);
+    text-decoration: none;
+    padding: 5px 32px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-family: var(--inter);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 164px;
+    margin-bottom: 20px;
+}
+
+.bg-gray .card__valor {
+    color: var(--white);
+}
+
+.bg-gray .card__description {
+    color: var(--gray-light);
+}
+
+.card__title {
+    color: var(--gray-200);
+    font-family: var(--sora);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.card__valor {
+    color: var(--gray-200);
+    text-align: center;
+    font-size: 50px;
+}
+
+.card__valor span {
+    font-size: 26px;
+}
+
+.cifrao {
+    font-size: 20px;
+}
+
+.card__description {
+    color: var(--gray);
+    font-size: 18px;
+    text-align: center;
+    padding: 47px 35px 58px 35px;
+    /* add fonte roboto */
+}
+
+.card__btn {
+    color: var(--white);
+    background-color: var(--blue);
+    font-size: 20px;
+    padding: 8px 80px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: var(--sora);
+    display: flex;
+    width: 230px;
+    margin: 0 auto;
+}
