@@ -27,7 +27,7 @@ html {
 
 .wrapper {
     width: 100%;
-    max-width: 1140px;
+    max-width: 71.25rem;
     margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 4.3rem;
 }
 
 .logo {
@@ -44,7 +44,7 @@ header {
 
 .menu {
     display: flex;
-    gap: 66px;
+    gap: 4.12rem;
     list-style: none;
 }
 
@@ -78,14 +78,14 @@ main {
     color: var(--gray-200);
     font-family: var(--sora);
     font-weight: 600;
-    font-size: 48px;
-    margin-bottom: 50px;
+    font-size: 3rem;
+    margin-bottom: 3.12rem;
 }
 
 .btn_register {
     color: var(--white);
     background-color: var(--blue);
-    padding: 16px 36px;
+    padding: 1rem 2.25rem;
     border-radius: 50px;
     text-decoration: none;
     font-family: var(--inter);
@@ -93,7 +93,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
+    width: 12.5rem;
     transition: .4s;
 }
 
@@ -101,26 +101,25 @@ main {
     background-color: #1071b6;
 }
 
-
 .functions {
     background-color: var(--white);
 }
 
 .functions__title {
     color: var(--gray-200);
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: var(--sora);
     font-weight: 600;
     text-align: center;
-    padding-top: 56px;
-    padding-bottom: 84px;
+    padding-top: 3.5rem;
+    padding-bottom: 5.25rem;
 }
 
 .functions__box {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 140px;
+    gap: 8.75rem;
 }
 
 .connection__box {
@@ -132,18 +131,18 @@ main {
 
 .box__title {
     color: var(--gray-200);
-    font-size: 18px;
+    font-size: 1.12rem;
     font-family: var(--sora);
     font-weight: 600;
-    padding: 34px 0 16px 0;
+    padding: 2.12rem 0 1rem 0;
 }
 
 .box__description {
     color: var(--gray);
     font-family: var(--inter);
     font-weight: 400;
-    padding-bottom: 109px;
-    width: 257px;
+    padding-bottom: 6.81rem;
+    width: 16rem;
     text-align: center;
 }
 
@@ -156,15 +155,15 @@ main {
 .app__content {
     display: flex;
     flex-direction: column;
-    padding-bottom: 128px;
+    padding-bottom: 8rem;
 }
 
 .app__title {
     color: var(--gray-200);
-    font-size: 32px;
+    font-size: 2rem;
     font-family: var(--sora);
     font-weight: 600;
-    padding-top: 117px;
+    padding-top: 7.31rem;
 }
 
 .app__description {
@@ -172,7 +171,7 @@ main {
     font-family: var(--inter);
     font-weight: 400;
     width: 65%;
-    padding: 24px 0 36px 0;
+    padding: 1.5rem 0 2.25rem 0;
 }
 
 .img__lojas {
@@ -180,8 +179,8 @@ main {
 }
 
 .app__image img {
-    margin-top: 65px;
-    padding-bottom: 50px;
+    margin-top: 4rem;
+    padding-bottom: 3.12rem;
 }
 
 .planos {
@@ -191,17 +190,17 @@ main {
 .planos__title {
     color: var(--gray-200);
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: var(--sora);
     font-weight: 600;
-    padding: 50px 0 16px 0;
+    padding: 3.12rem 0 1rem 0;
 }
 
 .planos__description {
     color: var(--gray);
-    font-size: 18px;
+    font-size: 1.12rem;
     text-align: center;
-    padding-bottom: 96px;
+    padding-bottom: 6rem;
     /* add fonte roboto */
 }
 
@@ -209,14 +208,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 1.87rem;
 }
 
 .card {
     background-color: var(--white-400);
-    width: 370px;
-    height: 470px;
-    margin-bottom: 130px;
+    width: 23.12rem;
+    height: 29.37rem;
+    margin-bottom: 8.12rem;
     /* add fonte roboto */
 }
 
@@ -227,26 +226,33 @@ main {
 .gray__title {
     color: var(--white);
     font-family: var(--sora);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
-    padding: 32px 0 14px 0;
+    padding: 2rem 0 0.87rem 0;
+}
+
+.gray__description {
+    color: var(--gray-light);
+    font-size: 1.12rem;
+    text-align: center;
+    padding-bottom: 3.62rem;
 }
 
 .preferred {
     color: var(--white);
     background-color: var(--blue);
     text-decoration: none;
-    padding: 5px 32px;
-    border-radius: 15px;
-    font-size: 14px;
+    padding: 0.31rem 2rem;
+    border-radius: 0.93rem;
+    font-size: 0.87rem;
     font-family: var(--inter);
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 164px;
-    margin-bottom: 20px;
+    width: 10.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .bg-gray .card__valor {
@@ -260,44 +266,44 @@ main {
 .card__title {
     color: var(--gray-200);
     font-family: var(--sora);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
-    padding: 50px 0;
+    padding: 1.25rem 0;
 }
 
 .card__valor {
     color: var(--gray-200);
     text-align: center;
-    font-size: 50px;
+    font-size: 3.12rem;
 }
 
 .card__valor span {
-    font-size: 26px;
+    font-size: 1.62rem;
 }
 
 .cifrao {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .card__description {
     color: var(--gray);
-    font-size: 18px;
+    font-size: 1.12rem;
     text-align: center;
-    padding: 47px 35px 58px 35px;
+    padding: 2.94rem 2.18rem 3.62rem 2.18rem;
     /* add fonte roboto */
 }
 
 .card__btn {
     color: var(--white);
     background-color: var(--blue);
-    font-size: 20px;
-    padding: 8px 80px;
-    border-radius: 50px;
+    font-size: 1.25rem;
+    padding: 0.5rem 5rem;
+    border-radius: 3.12rem;
     text-decoration: none;
     font-family: var(--sora);
     display: flex;
-    width: 230px;
+    width: 14.3rem;
     margin: 0 auto;
     transition: .4s;
 }
@@ -308,7 +314,7 @@ main {
 }
 
 .contact {
-    height: 382px;
+    height: 23.87rem;
     background-image: url('./img/bg_contato.png');
     background-size: cover;
     background-position: bottom;
@@ -323,16 +329,16 @@ main {
 
 .contact__title {
     color: var(--white);
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: var(--sora);
     font-weight: 600;
     text-align: center;
-    padding: 50px 0 16px 0;
+    padding: 3.12rem 0 1rem 0;
 }
 
 .contact__description {
     color: var(--gray-light);
-    font-size: 18px;
+    font-size: 1.12rem;
     text-align: center;
     margin: 0 auto;
     width: 35%;
@@ -341,47 +347,128 @@ main {
 form {
     display: flex;
     justify-content: center;
-    gap: 200px;
-    margin-top: 100px;
+    gap: 12.5rem;
+    margin-top: 6.25rem;
 }
 
 label {
     color: var(--white);
     position: relative;
     font-family: var(--inter);
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 500;
 }
 
 label::after {
     content: '';
-    width: 300px;
+    width: 18.75rem;
     height: 1px;
     background-color: var(--white);
     position: absolute;
     left: 0;
-    top: 25px;
+    top: 1.56rem;
 }
 
 .btn {
     color: var(--white);
-    font-size: 18px;
+    font-size: 1.12rem;
     font-family: var(--inter);
     background-color: var(--blue);
     border: none;
-    padding: 8px 32px;
-    border-radius: 50px;
+    padding: 0.5rem 2rem;
+    border-radius: 3.12rem;
 }
-
 
 footer {
     background-color: var(--white);
 }
 
 footer p {
-    padding: 41px 0 37px 0;
-    font-size: 20px;
+    padding: 2.56rem 0 2.31rem 0;
+    font-size: 1.25rem;
     font-family: var(--sora);
     font-weight: 400;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 700px;
+    }
+    
+    .menu {
+        gap: 1.87rem;
+        display: none;
+    }
+    
+    .home {
+        flex-direction: column;
+    }
+
+    .home__title {
+        text-align: center;
+        margin-top: 3.12rem;
+    }
+   
+    .home__img {
+        display: none;
+    }
+
+    .btn_register {
+        margin: 0 auto;
+        margin-bottom: 3.12rem;
+    }
+
+    .functions__title {
+        padding: 3.12rem 0;
+    }
+
+    .functions__box {
+        flex-direction: column;
+        gap: 1.15rem;
+    }
+
+    .box__description {
+        padding-bottom: 3.12rem;
+        width: 100%;
+    }
+
+    .app {
+        flex-direction: column;
+    }
+
+    .app__content {
+        padding-bottom: 3.12rem;
+    }
+
+    .app__title {
+        text-align: center;
+        padding-top: 3.12rem;
+    }
+
+    .app__description {
+        text-align: center;
+        width: 100%;
+    }
+
+    .img__lojas {
+        margin: 0 auto;
+    }
+
+    .app__image img {
+        margin: 0;
+    }
+
+    .planos__description {
+        padding-bottom: 3.12rem;
+    }
+
+    .planos__cards {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 0;
+    }
+
 }
