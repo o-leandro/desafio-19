@@ -6,6 +6,10 @@
     box-sizing: border-box ;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     /* Cores */
     --blue: #0F9AFE;
@@ -54,6 +58,12 @@ header {
     text-decoration: none;
 }
 
+
+.menu__item a:hover {
+    border-bottom: 1px solid var(--blue);
+}
+
+
 main {
     background: #EFF8FF;
 }
@@ -84,7 +94,13 @@ main {
     align-items: center;
     justify-content: center;
     width: 200px;
+    transition: .4s;
 }
+
+.btn_register:hover {
+    background-color: #1071b6;
+}
+
 
 .functions {
     background-color: var(--white);
@@ -159,6 +175,10 @@ main {
     padding: 24px 0 36px 0;
 }
 
+.img__lojas {
+    cursor: pointer;
+}
+
 .app__image img {
     margin-top: 65px;
     padding-bottom: 50px;
@@ -196,6 +216,7 @@ main {
     background-color: var(--white-400);
     width: 370px;
     height: 470px;
+    margin-bottom: 130px;
     /* add fonte roboto */
 }
 
@@ -278,4 +299,89 @@ main {
     display: flex;
     width: 230px;
     margin: 0 auto;
+    transition: .4s;
+}
+
+.card__btn:hover {
+    background-color: #1071b6;
+
+}
+
+.contact {
+    height: 382px;
+    background-image: url('./img/bg_contato.png');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.shadow {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color:rgba(41, 49, 69, 0.7);
+}
+
+.contact__title {
+    color: var(--white);
+    font-size: 40px;
+    font-family: var(--sora);
+    font-weight: 600;
+    text-align: center;
+    padding: 50px 0 16px 0;
+}
+
+.contact__description {
+    color: var(--gray-light);
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    width: 35%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+}
+
+label {
+    color: var(--white);
+    position: relative;
+    font-family: var(--inter);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+label::after {
+    content: '';
+    width: 300px;
+    height: 1px;
+    background-color: var(--white);
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+
+.btn {
+    color: var(--white);
+    font-size: 18px;
+    font-family: var(--inter);
+    background-color: var(--blue);
+    border: none;
+    padding: 8px 32px;
+    border-radius: 50px;
+}
+
+
+footer {
+    background-color: var(--white);
+}
+
+footer p {
+    padding: 41px 0 37px 0;
+    font-size: 20px;
+    font-family: var(--sora);
+    font-weight: 400;
+    text-align: center;
 }
