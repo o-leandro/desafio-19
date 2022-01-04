@@ -42,6 +42,10 @@ header {
     cursor: pointer;
 }
 
+.menu-mobile {
+    display: none;
+}
+
 .menu {
     display: flex;
     gap: 4.12rem;
@@ -66,6 +70,7 @@ header {
 
 main {
     background: #EFF8FF;
+    width: 100%;
 }
 
 .home {
@@ -345,39 +350,40 @@ main {
     width: 35%;
 }
 
-form {
+.contact__form {
     display: flex;
     justify-content: center;
-    gap: 12.5rem;
+    gap: 2rem;
     margin-top: 6.25rem;
 }
 
-label {
+.contact__input {
+    background-color: transparent;
     color: var(--white);
-    position: relative;
-    font-family: var(--inter);
-    font-size: 1.12rem;
-    font-weight: 500;
-}
-
-label::after {
-    content: '';
-    width: 18.75rem;
-    height: 1px;
-    background-color: var(--white);
-    position: absolute;
-    left: 0;
-    top: 1.56rem;
-}
-
-.btn {
-    color: var(--white);
-    font-size: 1.12rem;
-    font-family: var(--inter);
-    background-color: var(--blue);
     border: none;
+    border-bottom: 1px solid var(--white);
+    padding: 0.62rem;
+    width: 21.87rem;
+}
+
+.contact__input::placeholder {
+    color: var(--white);
+    font-size: 1.12rem;
+    font-family: 1.12rem;
+}
+
+.contact__input:focus {
+    outline-color: var(--blue);
+}
+
+.contact__form > button {
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 1.12rem;
+    font-family: var(--inter);
     padding: 0.5rem 2rem;
     border-radius: 3.12rem;
+    border: none;
 }
 
 footer {
@@ -398,11 +404,11 @@ footer p {
     }
 
     .logo {
-        margin-left: 50px;
+        margin-left: 10%;
     }
     
     .menu {
-        margin-right: 50px;
+        margin-right: 3.12rem;
         gap: 1rem;
     }
     
@@ -480,6 +486,8 @@ footer p {
 
     .card {
         margin: 0;
+        width: 21rem;
+        height: 25.37rem;
     }
 
     .contact__description {
@@ -488,7 +496,14 @@ footer p {
     }
 }
 
-    @media screen and (max-width: 426px) {
+    @media screen and (max-width: 426px) {  
+    .menu-mobile {
+        display: inline-block;
+        width: 1.87rem;
+        height: 1.87rem;
+        margin-left: 30%;
+    }
+   
     .menu {
         display: none;
     }
@@ -510,21 +525,22 @@ footer p {
         padding: 0 1rem;
     }
 
-    form {
+    .contact__form {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 0;
         margin-top: 3rem;
     }
 
-    label {
-        margin-left: 2.5rem;
-        margin-bottom: 3rem;
+    .contact__input {
+        width: 350px;
     }
 
-    .btn {
-        margin: 0 auto;
-        width: 30%;
+    .button {
+        width: 40%;
+        margin-top: 1.87rem;
     }
 }
 
@@ -543,11 +559,13 @@ footer p {
         height: 26rem;
     }
 
-    label {
-        margin-left: 0.5rem;
+    .contact__input {
+        width: 15.62rem;
+        margin: 0 auto;
     }
 
-    .btn {
+    .button {
         width: 40%;
+        margin-top: 1.87rem;
     }
 }
