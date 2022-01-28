@@ -1,6 +1,11 @@
-<h1>DESAFIO 19 - Rachi do Iuri Silva</h1>
-<p>Desafio da Comunidade Codelândia.</p>
-<a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=41733%3A754">Link do layout do projeto</a>
-<br>
-<br>
-<img src="img/desafio-19-codelandia.gif">
+# :computer: Sobre o projeto
+Desenvolvimento do layout do desafio 19 - Rachi da Comunidade Codelândia (Iuri Silva).
+[Link do desafio no figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=41733%3A754)
+
+##  :gear: Tecnologias
+* HTML5
+* CSS3
+
+
+&nbsp;
+![Desafio - 19](img/desafio-19-codelandia.gif)
